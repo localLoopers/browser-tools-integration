@@ -1,0 +1,27 @@
+{
+  "name": "browser-tools-integration",
+  "version": "1.0.0",
+  "description": "A project that integrates with browser automation tools",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browser",
+    "automation",
+    "puppeteer",
+    "scraping"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@agentdeskai/browser-tools-server": "^1.2.0",
+    "@smithery/cli": "latest",
+    "puppeteer": "^21.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
