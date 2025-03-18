@@ -1,0 +1,23 @@
+{
+    "mcpServers": {
+      "github": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@smithery/cli@latest",
+          "run",
+          "@smithery-ai/github",
+          "--config",
+          "{\"githubPersonalAccessToken\":\"YOUR_GITHUB_TOKEN_HERE\"}"
+        ]
+      },
+      "browser": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@agentdeskai/browser-tools-server@1.2.0"
+        ],
+        "note": "The browser-tools-server runs on port 3025. Make sure to terminate any processes running on this port. In a future release, we will handle this gracefully."
+      }
+    }
+  }
